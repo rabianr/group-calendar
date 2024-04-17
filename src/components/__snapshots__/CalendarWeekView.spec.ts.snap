@@ -1,0 +1,86 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CalendarWeekView コンポーネント > スナップショットテスト 1`] = `
+"<table data-v-39b37b02="" class="table table-bordered border-secondary-subtle">
+  <thead data-v-39b37b02="">
+    <tr data-v-39b37b02="">
+      <th data-v-39b37b02="" class="col-header text-center">メンバー</th>
+      <th data-v-39b37b02="" class="col-header text-center">
+        <i18n-date-display-stub data-v-39b37b02="" date="Wed Apr 10 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+      <th data-v-39b37b02="" class="col-header text-center">
+        <i18n-date-display-stub data-v-39b37b02="" date="Thu Apr 11 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+      <th data-v-39b37b02="" class="col-header text-center">
+        <i18n-date-display-stub data-v-39b37b02="" date="Fri Apr 12 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+      <th data-v-39b37b02="" class="col-header text-center text-info">
+        <i18n-date-display-stub data-v-39b37b02="" date="Sat Apr 13 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+      <th data-v-39b37b02="" class="col-header text-center text-danger">
+        <i18n-date-display-stub data-v-39b37b02="" date="Sun Apr 14 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+      <th data-v-39b37b02="" class="col-header text-center">
+        <i18n-date-display-stub data-v-39b37b02="" date="Mon Apr 15 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+      <th data-v-39b37b02="" class="col-header text-center">
+        <i18n-date-display-stub data-v-39b37b02="" date="Tue Apr 16 2024 00:00:00 GMT+0900 (Japan Standard Time)" formatstr="M/d (E)"></i18n-date-display-stub>
+      </th>
+    </tr>
+  </thead>
+  <tbody data-v-39b37b02="">
+    <tr data-v-39b37b02="">
+      <td data-v-39b37b02="">山田花子 <div data-v-39b37b02="" class="mt-1"><button data-v-39b37b02="" type="button" class="btn btn-link text-danger p-0">
+            <icon-trash3-stub data-v-39b37b02=""></icon-trash3-stub>
+          </button></div>
+      </td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+    </tr>
+    <tr data-v-39b37b02="">
+      <td data-v-39b37b02="">山田太郎 <div data-v-39b37b02="" class="mt-1"><button data-v-39b37b02="" type="button" class="btn btn-link text-danger p-0">
+            <icon-trash3-stub data-v-39b37b02=""></icon-trash3-stub>
+          </button></div>
+      </td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+    </tr>
+    <tr data-v-39b37b02="">
+      <td data-v-39b37b02="">何野某 <div data-v-39b37b02="" class="mt-1"><button data-v-39b37b02="" type="button" class="btn btn-link text-danger p-0">
+            <icon-trash3-stub data-v-39b37b02=""></icon-trash3-stub>
+          </button></div>
+      </td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+    </tr>
+    <tr data-v-39b37b02="">
+      <td data-v-39b37b02="">権兵衛 <div data-v-39b37b02="" class="mt-1"><button data-v-39b37b02="" type="button" class="btn btn-link text-danger p-0">
+            <icon-trash3-stub data-v-39b37b02=""></icon-trash3-stub>
+          </button></div>
+      </td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+      <td data-v-39b37b02="" class="col-events"></td>
+    </tr>
+  </tbody>
+</table>"
+`;

@@ -6,7 +6,7 @@ import { i18n } from '@/i18n'
 import TheCalendar from './TheCalendar.vue'
 import CalendarWeekView from './CalendarWeekView.vue'
 
-describe('TheCalendar', () => {
+describe('TheCalendar コンポーネント', () => {
   const { t } = i18n.global
   const start = startOfDay(new Date())
   const end = addDays(start, 6)

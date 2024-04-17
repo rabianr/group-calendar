@@ -103,6 +103,7 @@ const hidden = () => {
       v-model:start="dates.start"
       v-model:end="dates.end"
       :error="dates.error && $t(dates.error, { attr: $t('Start Date') })"
+      data-test="date"
     >
       <template #label>{{ $t('Date') }}</template>
     </FormFieldDateRange>
@@ -110,6 +111,7 @@ const hidden = () => {
       v-model="member.value"
       :options="memberOptions"
       :error="member.error && $t(member.error, { attr: $t('Member') })"
+      data-test="member"
     >
       <template #label>{{ $t('Member') }}</template>
     </FormFieldSelect>
@@ -117,10 +119,11 @@ const hidden = () => {
       v-model="title.value"
       :error="title.error && $t(title.error, { attr: $t('Title') })"
       maxlength="30"
+      data-test="title"
     >
       <template #label>{{ $t('Title') }}</template>
     </FormField>
-    <FormFieldTextarea v-model="detail.value" maxlength="100">
+    <FormFieldTextarea v-model="detail.value" maxlength="100" data-test="detail">
       <template #label>{{ $t('Detail') }}</template>
     </FormFieldTextarea>
   </BSModal>

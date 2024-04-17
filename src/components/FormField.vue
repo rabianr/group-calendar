@@ -1,14 +1,11 @@
 <script setup lang="ts">
-defineOptions({
-  inheritAttrs: false
-})
-
 withDefaults(
   defineProps<{
     id?: string
     type?: string
     placeholder?: string
     error?: string
+    maxlength?: string
   }>(),
   {
     type: 'text'
@@ -30,7 +27,7 @@ const model = defineModel()
         class="form-control"
         :class="{ 'is-invalid': error }"
         :placeholder="placeholder"
-        v-bind="$attrs"
+        :maxlength="maxlength"
         v-model="model"
       />
     </slot>

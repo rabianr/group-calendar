@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CalendarEvent コンポーネント > スナップショットテスト 1`] = `
+"<a data-v-bbbf80c4="" href="#" class="event" style="--colspan: 1; --pos: 0;" tabindex="0">
+  <!--v-if--> テスト
+</a>
+<div data-v-bbbf80c4="" class="d-none">
+  <calendar-event-detail-stub data-v-bbbf80c4="" data="[object Object]"></calendar-event-detail-stub>
+</div>
+<!--v-if-->"
+`;
+
+exports[`CalendarEvent コンポーネント > スナップショットテスト 2`] = `
+"<a data-v-bbbf80c4="" href="#" class="event" style="--colspan: 2; --pos: 1; --pos: 1;" tabindex="0">04/10 - 04/11 テスト</a>
+<div data-v-bbbf80c4="" class="d-none">
+  <calendar-event-detail-stub data-v-bbbf80c4="" data="[object Object]"></calendar-event-detail-stub>
+</div>
+<calendar-cell-spacer-stub data-v-bbbf80c4="" lastpos="2"></calendar-cell-spacer-stub>"
+`;

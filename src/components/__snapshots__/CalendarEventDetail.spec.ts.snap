@@ -1,0 +1,45 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CalendarEventDetail コンポーネント > スナップショットテスト 1`] = `
+"<table data-v-3a649ac1="" class="table-event-detail">
+  <tbody data-v-3a649ac1="">
+    <tr data-v-3a649ac1="">
+      <th data-v-3a649ac1="" class="align-top text-end pe-2">日付 :</th>
+      <td data-v-3a649ac1="">2024-04-10
+        <!--v-if-->
+      </td>
+    </tr>
+    <tr data-v-3a649ac1="">
+      <th data-v-3a649ac1="" class="align-top text-end pe-2">内容 :</th>
+      <td data-v-3a649ac1="">テスト内容</td>
+    </tr>
+    <tr data-v-3a649ac1="">
+      <th data-v-3a649ac1=""></th>
+      <td data-v-3a649ac1=""><button data-v-3a649ac1="" type="button" class="btn btn-link text-danger p-0">
+          <icon-trash3-stub data-v-3a649ac1=""></icon-trash3-stub>
+        </button></td>
+    </tr>
+  </tbody>
+</table>"
+`;
+
+exports[`CalendarEventDetail コンポーネント > スナップショットテスト 2`] = `
+"<table data-v-3a649ac1="" class="table-event-detail">
+  <tbody data-v-3a649ac1="">
+    <tr data-v-3a649ac1="">
+      <th data-v-3a649ac1="" class="align-top text-end pe-2">日付 :</th>
+      <td data-v-3a649ac1="">2024-04-10 ～ 2024-04-11</td>
+    </tr>
+    <tr data-v-3a649ac1="">
+      <th data-v-3a649ac1="" class="align-top text-end pe-2">内容 :</th>
+      <td data-v-3a649ac1="">テスト内容</td>
+    </tr>
+    <tr data-v-3a649ac1="">
+      <th data-v-3a649ac1=""></th>
+      <td data-v-3a649ac1=""><button data-v-3a649ac1="" type="button" class="btn btn-link text-danger p-0">
+          <icon-trash3-stub data-v-3a649ac1=""></icon-trash3-stub>
+        </button></td>
+    </tr>
+  </tbody>
+</table>"
+`;

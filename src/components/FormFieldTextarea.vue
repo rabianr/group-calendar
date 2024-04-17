@@ -1,14 +1,11 @@
 <script setup lang="ts">
 import FormField from './FormField.vue'
 
-defineOptions({
-  inheritAttrs: false
-})
-
 defineProps<{
   id?: string
   placeholder?: string
   error?: string
+  maxlength?: string
 }>()
 
 const model = defineModel<string>()
@@ -24,7 +21,7 @@ const model = defineModel<string>()
       class="form-control"
       :class="{ 'is-invalid': error }"
       :placeholder="placeholder"
-      v-bind="$attrs"
+      :maxlength="maxlength"
       v-model="model"
     />
   </FormField>

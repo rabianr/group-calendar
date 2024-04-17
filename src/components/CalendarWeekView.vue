@@ -171,7 +171,11 @@ const deleteMember = (name: string) => {
         <td>
           {{ member }}
           <div class="mt-1">
-            <button type="button" class="btn btn-link text-danger p-0" @click="() => deleteMember(member as string)">
+            <button
+              type="button"
+              class="btn btn-link text-danger p-0"
+              @click="() => deleteMember(member as string)"
+            >
               <IconTrash3 />
             </button>
           </div>
